@@ -99,12 +99,6 @@ window.addEventListener("load",()=>{
                 else if(id>800){
                     tempicon.src="cloudy.svg";
                 }
-                
-            
-
-
-
-
                 console.log(data);
             })
         
