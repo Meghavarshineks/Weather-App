@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <title>Know the weather!!!</title>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <form id="search-form">
+            <input type="search" 
+            placeholder="Enter city" 
+            id="search-input" 
+            required >
+            
+            <button id="search-button">Search</button>
+        </form>
+
+        <main id="app-container">
+            <div id="location">
+                <p>------------</p>
+            </div>
+            <div id="temp">
+                <img id="temp-icon" src="weather.svg" alt="weather.svg">
+                <p><span id="temp-value">------------</span><span id="temp-unit">&#176</span></p>
+            </div>
+
+            <div id="climate">
+                <p>------------</p>
+            </div>
+        </main>
+
+
+        <script src="weather.js">
+
+        </script>
+    </body>
+</html>
